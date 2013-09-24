@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+	padding-top:7%;
+}
+body{
+	background-color:#ffdddd;
+} 
+#BoobsContainer {
+	width:50%;
+	
+	top:15%;
+	left: 20%;
+	display:block;
+	min-width:600px;
+	margin: 0px auto;
+	clear:both;
+	
+}
+#left {
+	float:left;
+	
+}
+#right {
+	float:right;
+	
+}
+.circle {
+	border-radius: 50%;
+	
+	
+}
+.bigger {
+	width:150px;
+	height:150px;
+	background-color:#ffbebe;
+	
+
+}
+.smaller {
+	width:30px;
+	height:30px;
+	background-color:#ff9898;
+	border: solid 3px #ff8c8c;
+	position:relative; 
+	top: 50%;
+	left:50%;
+	margin-left: -17px;
+	margin-top: -17px;
+	display:block;
+}
+#tagline {
+	position:relative;
+	display:block;
+	margin:0 auto;
+	padding-top: 100px;
+	width: 600px;
+	font-family: 'Just Me Again Down Here', cursive;
+	color:#ff8c8c;
+	font-size:90px;
+	text-align:center;
+	clear:both;
+}
+#bottomLine {
+	position:fixed;
+	bottom: 20px;
+	left:20px;
+}
+#bottomLine a{
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size:18px;
+	text-decoration:none;
+	padding-right:20px;
+	color:#666;
+}
+#bottomLine a:hover {
+	color:#ff8c8c;
+}
