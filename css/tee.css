@@ -9,6 +9,11 @@ background-size: cover;
 }
 
 
+#bottomLine {
+	position:fixed;
+	bottom: 20px;
+	left:20px;
+}
 #bottomLine a{
 	font-family: 'Just Me Again Down Here', cursive;
 	font-size:18px;
