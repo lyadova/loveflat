@@ -7,9 +7,7 @@ html {
 -o-background-size: cover;
 background-size: cover;
 }
-body {
-	min-height:800px;
-}
+
 
 #bottomLine a{
 	font-family: 'Just Me Again Down Here', cursive;
@@ -25,9 +23,10 @@ body {
 	position:absolute;
 	top:50%;
 	right:8%;
+	box-shadow: 0px 0px 20px #7d7e87;
 }
 #pinkButton a{
-	background-color:#ef98a1;
+	background-color:#ff98a3;
 	border-radius:5px;
 	font-family: 'Just Me Again Down Here', cursive;
 	font-size:30px;
@@ -40,8 +39,8 @@ body {
 	
 }
 #pinkButton a:hover {
-	background-color:#ee89ac;
-	border-bottom: solid 3px #c26e8b;
+	background-color:#d5878f;
+	border-bottom: solid 3px #a86a71;
 	
 }
 /*#pinkButton a{
