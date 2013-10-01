@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+	background: url(../images/teecover.jpg) no-repeat top left fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body {
+	min-height:800px;
+}
+
+#bottomLine a{
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size:18px;
+	text-decoration:none;
+	padding-right:20px;
+	color:#666;
+}
+#bottomLine a:hover {
+	color:#ff8c8c;
+}
+#pinkButton {
+	position:absolute;
+	top:50%;
+	right:8%;
+}
+#pinkButton a{
+	background-color:#ff99c0;
+	border-radius:5px;
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size:30px;
+	text-align:center;
+	color:#FFF;
+	display:block;
+	padding: 5px 20px;
+	text-decoration:none;
+	border-bottom: solid 3px #d17998;
+	
+}
+#pinkButton a:hover {
+	background-color:#ee89ac;
+	border-bottom: solid 3px #c26e8b;
+	
+}
+/*#pinkButton a{
+	background-image:url(../images/btn-too-normal-s.png);
+	display:block;
+	width:200px;
+	height:44px;
+}*/
+img {
+	border:none;
+}
+/* for high resolution display */
+
+/*@media only screen and (min--moz-device-pixel-ratio: 2),
+
+only screen and (-o-min-device-pixel-ratio: 2/1),
+
+only screen and (-webkit-min-device-pixel-ratio: 2),
+
+only screen and (min-device-pixel-ratio: 2) {
+
+#pinkButton a{
+	background-image:url(../images/btn-too-normal.png);
+	width:400px;
+	height:88px;
+}*/
+
+/* rest of your styles... */

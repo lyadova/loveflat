@@ -66,6 +66,12 @@ body{
 	text-align:center;
 	clear:both;
 }
+#tagline a {
+	text-decoration:none;
+}
+#tagline a:hover {
+	text-decoration:none;
+}
 #bottomLine {
 	position:fixed;
 	bottom: 20px;
