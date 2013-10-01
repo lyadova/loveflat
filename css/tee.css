@@ -27,7 +27,7 @@ body {
 	right:8%;
 }
 #pinkButton a{
-	background-color:#ff99c0;
+	background-color:#ef98a1;
 	border-radius:5px;
 	font-family: 'Just Me Again Down Here', cursive;
 	font-size:30px;
@@ -36,7 +36,7 @@ body {
 	display:block;
 	padding: 5px 20px;
 	text-decoration:none;
-	border-bottom: solid 3px #d17998;
+	border-bottom: solid 3px #bc787f;
 	
 }
 #pinkButton a:hover {
