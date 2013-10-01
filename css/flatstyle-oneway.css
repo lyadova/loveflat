@@ -72,6 +72,7 @@ body{
 }
 #tagline a:hover {
 	text-decoration:none;
+	color:#a86a71;
 }
 #bottomLine {
 	position:fixed;
