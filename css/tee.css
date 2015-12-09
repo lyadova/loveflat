@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 html {
-	background: url(../images/teecover.jpg) no-repeat top left fixed;
+	background: url(../images/teecover.jpg) no-repeat top center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -15,30 +15,30 @@ background-size: cover;
 	left:20px;
 }
 #bottomLine a{
-	font-family: 'Just Me Again Down Here', cursive;
-	font-size:18px;
+	font-family: Arial;
+	font-size:0.8em;
 	text-decoration:none;
 	padding-right:20px;
-	color:#666;
+	color:#FFF;
 }
 #bottomLine a:hover {
 	color:#ff8c8c;
 }
 #pinkButton {
-	position:absolute;
-	top:50%;
-	right:8%;
-	box-shadow: 0px 0px 20px #7d7e87;
+	position:fixed;
+	bottom: 20px;
+	right:20px;
+
 }
 #pinkButton a{
 	background-color:#ff98a3;
 	border-radius:5px;
-	font-family: 'Just Me Again Down Here', cursive;
-	font-size:30px;
+	font-family: 'Arial';
+	font-size:1em;
 	text-align:center;
 	color:#FFF;
 	display:block;
-	padding: 5px 20px;
+	padding: 0.5em 1em;
 	text-decoration:none;
 	border-bottom: solid 3px #bc787f;
 	
@@ -46,6 +46,7 @@ background-size: cover;
 #pinkButton a:hover {
 	background-color:#d5878f;
 	border-bottom: solid 3px #a86a71;
+	color: #FFF;
 	
 }
 /*#pinkButton a{

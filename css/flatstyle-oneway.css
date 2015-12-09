@@ -6,15 +6,22 @@ body
     height: 100%;
     width: 100%;
     margin: 0;
-	padding-top:7%;
+	padding-top:14em;
+	font-size: 14px;
 }
 body{
 	background-color:#ffdddd;
 } 
+@media (min-width:1200px){
+	body {font-size: 18px;}}
+
+@media (min-width:1600px){
+	body {font-size: 20px;}}
+
 #BoobsContainer {
-	width:50%;
+	width:60%;
 	
-	top:15%;
+	
 	left: 20%;
 	display:block;
 	min-width:600px;
@@ -36,33 +43,33 @@ body{
 	
 }
 .bigger {
-	width:150px;
-	height:150px;
+	width:12em;
+	height:12em;
 	background-color:#ffbebe;
 	
 
 }
 .smaller {
-	width:30px;
-	height:30px;
+	width:3em;
+	height:3em;
 	background-color:#ff9898;
-	border: solid 3px #ff8c8c;
+	border: solid 0.3em #ff8c8c;
 	position:relative; 
 	top: 50%;
 	left:50%;
-	margin-left: -17px;
-	margin-top: -17px;
+	margin-left: -1.7em;
+	margin-top: -1.7em;
 	display:block;
 }
 #tagline {
 	position:relative;
 	display:block;
 	margin:0 auto;
-	padding-top: 20%;
+	padding-top: 1.5em;
 	width: 600px;
-	font-family: 'Just Me Again Down Here', cursive;
+	font-family: 'Pacifico', cursive;
 	color:#ff8c8c;
-	font-size:120px;
+	font-size:6em;
 	text-align:center;
 	clear:both;
 }
@@ -79,8 +86,8 @@ body{
 	left:20px;
 }
 #bottomLine a{
-	font-family: 'Just Me Again Down Here', cursive;
-	font-size:18px;
+	font-family: Arial;
+	font-size:0.8em;
 	text-decoration:none;
 	padding-right:20px;
 	color:#666;
