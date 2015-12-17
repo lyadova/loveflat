@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+	background: url(../images/teecover.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+#bottomLine {
+	position:fixed;
+	bottom: 20px;
+	left:20px;
+}
+#bottomLine a{
+	font-family: Arial;
+	font-size:0.8em;
+	text-decoration:none;
+	padding-right:20px;
+	color:#FFF;
+}
+#bottomLine a:hover {
+	color:#ff8c8c;
+}
+#pinkButton {
+	position:fixed;
+	bottom: 20px;
+	right:20px;
+
+}
+#pinkButton a{
+	background-color:#ff98a3;
+	border-radius:5px;
+	font-family: 'Arial';
+	font-size:1em;
+	text-align:center;
+	color:#FFF;
+	display:block;
+	padding: 0.5em 1em;
+	text-decoration:none;
+	border-bottom: solid 3px #bc787f;
+	
+}
+#pinkButton a:hover {
+	background-color:#d5878f;
+	border-bottom: solid 3px #a86a71;
+	color: #FFF;
+	
+}
+/*#pinkButton a{
+	background-image:url(../images/btn-too-normal-s.png);
+	display:block;
+	width:200px;
+	height:44px;
+}*/
+img {
+	border:none;
+}
+/* for high resolution display */
+
+/*@media only screen and (min--moz-device-pixel-ratio: 2),
+
+only screen and (-o-min-device-pixel-ratio: 2/1),
+
+only screen and (-webkit-min-device-pixel-ratio: 2),
+
+only screen and (min-device-pixel-ratio: 2) {
+
+#pinkButton a{
+	background-image:url(../images/btn-too-normal.png);
+	width:400px;
+	height:88px;
+}*/
+
+/* rest of your styles... */

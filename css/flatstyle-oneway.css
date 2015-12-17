@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+	padding-top:10%;
+	font-size: 14px;
+}
+body{
+	background-color:#ffdddd;
+} 
+@media (min-width:1400px){
+	body {font-size: 18px;}}
+
+@media (min-width:1600px){
+	body {font-size: 20px;}}
+
+
+
+#BoobsContainer {
+	width:60%;
+	
+	
+	left: 20%;
+	display:block;
+	min-width:600px;
+	margin: 0px auto;
+	clear:both;
+	
+}
+#left {
+	float:left;
+	
+}
+#right {
+	float:right;
+	
+}
+.circle {
+	border-radius: 50%;
+	
+	
+}
+.bigger {
+	width:12em;
+	height:12em;
+	background-color:#ffbebe;
+	
+
+}
+.smaller {
+	width:3em;
+	height:3em;
+	background-color:#ff9898;
+	border: solid 0.3em #ff8c8c;
+	position:relative; 
+	top: 50%;
+	left:50%;
+	margin-left: -1.7em;
+	margin-top: -1.7em;
+	display:block;
+}
+#tagline {
+	position:relative;
+	display:block;
+	margin:0 auto;
+	padding-top: 10%;
+	width: 600px;
+	font-family: 'Pacifico', cursive;
+	color:#ff8c8c;
+	font-size:6em;
+	text-align:center;
+	clear:both;
+}
+#tagline a {
+	text-decoration:none;
+	color:#ff8c8c;
+}
+#tagline a:hover {
+	color:#d5878f;
+}
+#bottomLine {
+	position:fixed;
+	bottom: 20px;
+	left:20px;
+}
+#bottomLine a{
+	font-family: Arial;
+	font-size:0.8em;
+	text-decoration:none;
+	padding-right:20px;
+	color:#666;
+}
+#bottomLine a:hover {
+	color:#ff8c8c;
+}
